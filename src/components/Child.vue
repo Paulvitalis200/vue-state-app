@@ -9,8 +9,7 @@
 <script setup>
 import GrandChild from './GrandChild.vue';
 import useNumber from '../composables/useNumbers'
-
-
-const {numbers, addNumber} = useNumber()
+import { useNumbersStore } from '@/stores/numbers';
+const {numbers, addNumber} = useNumbersStore()
 
 </script>
