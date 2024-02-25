@@ -8,6 +8,7 @@ const {numbers, doubleNumber, filterNum} = useNumbersStore()
 <template>
     <h1>This is the Great grand child</h1>
     {{ filterNum(10) }}
+    {{ doubleNumber }}
     <div class="line"></div>
     
 </template>
